@@ -1,0 +1,53 @@
+
+.App {
+  display: flex;
+  font-family: Arial, sans-serif;
+}
+
+.sidebar {
+  width: 200px;
+  background-color: #f7f7f7;
+  padding: 20px;
+  border-right: 1px solid #100f0f;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar li {
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+}
+
+.charts {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.pie-chart {
+  width: 30%;
+}
+.line-chart{
+  width: 65%;
+}
+
+h2 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.topp{
+  margin-bottom: 50px;
+  color: #dd6ce7;
+}
+.side1{
+  color: #dd6ce7;
+  
+}
